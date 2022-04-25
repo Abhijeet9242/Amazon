@@ -1,0 +1,110 @@
+.mainnav{
+    width:100%;
+    height:60px;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:5;
+}
+.nav{
+    width:100%;
+    height:100%;
+    background-color: #131921;
+    display: flex;
+
+}
+.navleft{
+    width:70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navlogo{
+    width:30%;
+    /* border: 1px solid green; */
+}
+.navlogo img{
+    width:110px;
+    margin-top: 10px;
+}
+.navinput{
+    width:60%;
+    /* border: 1px solid green; */
+    display: flex;
+}
+.navinput input{
+    /* width:600px; */
+    width:92%;
+    height:38px;
+    border: none;
+    outline: none;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.searchicon{
+    width:8%;
+    background-color: #febd69;
+    height: 40px;
+    /* width: 40px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    cursor: pointer;
+}
+.navright{
+    width:25%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navright > div{
+    width:25%;
+    /* border:1px solid green; */
+}
+.navright a{
+    text-decoration: none;
+}
+.cart_btn{
+    padding: 8px;
+}
+
+.cart_btn #icon{
+    /* margin-right: 10px; */
+    color: #fff;
+    /* margin-top: 2px; */
+}
+.cart_btn:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.signinbtn:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+.avatartdiv:hover{
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#avatar{
+   margin: auto;
+}
+.signinbtn{
+    padding:9px;
+   
+}
+.signinbtn a{
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+
